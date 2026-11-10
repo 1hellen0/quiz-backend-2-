@@ -1,0 +1,36 @@
+{
+  "name": "quiz-backend-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "node --test tests/inventarioBalance.test.js",
+    "test:inventory": "node scripts/test-inventario-integration.js",
+    "test:inventory:integration": "node scripts/test-inventario-integration.js",
+    "test:db": "node scripts/test-connection.js",
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1hellen0/quiz-backend-2-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/1hellen0/quiz-backend-2-/issues"
+  },
+  "homepage": "https://github.com/1hellen0/quiz-backend-2-#readme",
+  "dependencies": {
+    "dotenv": "^18.0.10",
+    "express": "^5.3.0",
+    "mysql2": "^3.24.6",
+    "sequelize": "^6.37.8"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14",
+    "sequelize-cli": "^6.6.5"
+  }
+}
